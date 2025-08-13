@@ -1,12 +1,44 @@
-# React + Vite
+# 🧠 Smart Tokenizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet powerful tokenizer tool that lets you **encode** text into token IDs and **decode** token IDs back into text.  
+Built with **React + Tailwind CSS** and deployed on **Vercel**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+🔗 **Try it now:** [https://js-tokenizer.vercel.app/](https://js-tokenizer.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- 🔡 **Encode Mode** – Enter any text and instantly see its tokenized representation.
+- 🔍 **Hover Mapping** – Hover over any token ID to see the corresponding token text.
+- 🔄 **Decode Mode** – Switch to decode mode and input comma-separated token IDs to get back the decoded text.
+- ⚡ **Real-time Processing** – Everything updates as you type.
+- 🎨 **Clean UI** – Minimal, responsive design with Tailwind CSS.
+
+---
+
+## 🛠️ Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/skehargit/jsTokenizer.git
+cd jsTokenizer
+```
+
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Run the Development Server
+```bash
+npm run dev
+```
+
+### 4️⃣ Open in Browser
+```bash
+http://localhost:5173/
+```
+
