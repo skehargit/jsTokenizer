@@ -124,8 +124,9 @@ const Tokenizer = () => {
       <div className="text-center mb-10">
         <p className="text-gray-600 mt-2">
           Convert text to tokens and explore the connections with interactive
-          hover
+          hover. 
         </p>
+        <p >source code is available on <a href="https://github.com/skehargit/jsTokenizer" className="text-blue-600 hover:text-blue-800 hover:underline transition-colors">github</a></p>
       </div>
 
       {/* Main Layout */}
